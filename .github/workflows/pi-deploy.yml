@@ -8,6 +8,8 @@ on:
       image-tag:
         default: latest
 
+run-name: Build Salesagent (${{ inputs.salesagent-branch }})
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
